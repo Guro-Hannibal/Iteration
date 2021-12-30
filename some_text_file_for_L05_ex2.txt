@@ -1,0 +1,4 @@
+mysqldump advantages include the convenience and flexibility of viewing or even editing the output before restoring.
+You can clone databases for development and DBA work, or produce slight variations of an existing database for testing.
+It is not intended as a fast or scalable solution for backing up substantial amounts of data.
+With large data sizes, even if the backup step takes a reasonable time, restoring the data can be very slow because replaying the SQL statements involves disk I/O for insertion, index creation, and so on.
